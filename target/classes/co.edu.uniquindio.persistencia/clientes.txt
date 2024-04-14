@@ -1,0 +1,10 @@
+Juan Pérez,35,M,101,Colombia
+María Gómez,28,F,102,México
+Carlos López,40,M,103,Argentina
+Laura Martínez,45,F,104,Chile
+Andrés Rodríguez,30,M,105,Ecuador
+Sofía Hernández,38,F,106,Perú
+Pedro González,25,M,107,Brasil
+Ana Ramírez,50,F,108,Uruguay
+David Díaz,32,M,109,Paraguay
+Elena Castro,42,F,110,Venezuela

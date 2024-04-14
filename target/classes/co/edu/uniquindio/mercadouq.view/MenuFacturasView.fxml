@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.mercadouq.viewController.MenuFacturasViewController">
+   <children>
+      <TableView fx:id="tableFacturas" layoutX="55.0" layoutY="50.0" prefHeight="200.0" prefWidth="489.0">
+        <columns>
+          <TableColumn fx:id="tbcIdFactura" prefWidth="99.99996948242188" text="Factura Numero" />
+          <TableColumn fx:id="tbcIdCliente" prefWidth="83.3333740234375" text="Id Cliente" />
+            <TableColumn fx:id="tbcTipoProd" prefWidth="108.66668701171875" text="Tipo Producto" />
+            <TableColumn fx:id="tbcValor" prefWidth="88.6666259765625" text="Valor" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnCargarFacturas" layoutX="114.0" layoutY="296.0" mnemonicParsing="false" onAction="#CargarFacturas" text="Cargar Facturas" />
+   </children>
+</AnchorPane>
